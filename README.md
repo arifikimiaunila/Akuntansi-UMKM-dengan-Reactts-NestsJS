@@ -10,8 +10,7 @@ Target pengguna:
 Struktur utama:
 - `nest-backend/`: API payroll, master karyawan, jurnal akuntansi, dashboard ringkasan.
 - `react-frontend/`: dashboard operasional untuk HR + akuntansi.
-- `legacy-go-beego/`: kode lama berbasis Go/Beego (arsip/migrasi historis).
-
+  
 Upgrade yang sudah aktif:
 - persistence database PostgreSQL via TypeORM
 - autentikasi JWT + role based access control (owner/admin/finance/hr)
